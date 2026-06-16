@@ -1,0 +1,33 @@
+AI notes:
+
+-  key requirements:
+temp - range 
+weather 
+environment 
+ground situation: 
+so cricket playes yes or no 
+------model train--------
+ -- 
+-----board!!---------------
+- choose root node
+temp 
+visibility 
+ground condition
+sports equipment 
+decision
+
+- calculate entropy and info gain !
+
+make nodes wala graph -!
+
+competition aur gain e baat kr rhe to - guzaara ho jaana - but it would be alot more complex 
+- pruning can be done - when tree made
+- 
+
+*Issues* ----------------
+missing data
+real-valued attributes
+Overfitting
+
+sat ko hum unsupervised kren gey! 
+uske baad neurolane

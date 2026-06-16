@@ -1,0 +1,10 @@
+Here are the steps for testing, building, and pushing an image to Docker using GitHub Actions:
+1. Create your project with all necessary files (frontend, backend, testcase if any).
+2. Create Dockerfile and .gitignore file.
+3. Create a YAML file for the workflow of GitHub Actions.
+4. Run your code locally.
+5. Go to your Docker Hub, create a PAT, and copy the token.
+6. Create a new repo on GitHub.
+7. Go to the settings of the repo, select "actions" from the "secrets and variables" section on the left side, and create 2 secrets, DOCKERHUB_USERNAME and DOCKERHUB_TOKEN.
+8. Push your code to the repo and wait for the workflow to run successfully.
+9. Once the image is pushed to Docker Hub, pull and run it to test it.
